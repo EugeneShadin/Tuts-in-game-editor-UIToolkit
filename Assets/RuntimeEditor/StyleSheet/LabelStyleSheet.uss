@@ -1,0 +1,3 @@
+.text-center {
+    -unity-text-align: middle-center;
+}

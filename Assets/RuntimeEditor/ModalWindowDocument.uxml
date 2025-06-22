@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/RuntimeEditor/ButtonStyleSheet.uss?fileID=7433441132597879392&amp;guid=2318345d3188795428cb511f73391a04&amp;type=3#ButtonStyleSheet" />
+    <Style src="project://database/Assets/RuntimeEditor/ModalWindowStyleSheet.uss?fileID=7433441132597879392&amp;guid=21c37b72d4e094b4f8c29e430e7d488c&amp;type=3#ModalWindowStyleSheet" />
+    <Style src="project://database/Assets/RuntimeEditor/InputFieldStyleSheet.uss?fileID=7433441132597879392&amp;guid=08256e3a8f9c40948d361eba0445743c&amp;type=3#InputFieldStyleSheet" />
+    <Style src="project://database/Assets/RuntimeEditor/LabelStyleSheet.uss?fileID=7433441132597879392&amp;guid=9044d0668cfb4f19b68699229efa39a8&amp;type=3#LabelStyleSheet" />
+    <Style src="project://database/Assets/RuntimeEditor/GlobalVariables.uss?fileID=7433441132597879392&amp;guid=9c4044a70541bf24ba923fa42bdd2196&amp;type=3#GlobalVariables" />
+    <Style src="project://database/Assets/RuntimeEditor/IconsStyleSheet.uss?fileID=7433441132597879392&amp;guid=db58bf99b9b36af4982cdfd8162d08b4&amp;type=3#IconsStyleSheet" />
+    <Style src="project://database/Assets/RuntimeEditor/CommonStyleSheet.uss?fileID=7433441132597879392&amp;guid=60015fdb316512044a77bdf4f4cc21f6&amp;type=3#CommonStyleSheet" />
+    <ui:VisualElement class="modal-window-container modal-window-container-bg">
+        <ui:VisualElement class="modal-window">
+            <ui:VisualElement name="header" class="modal-window_header">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement name="body" class="modal-window_body modal-window_content" />
+            <ui:VisualElement name="footer" class="modal-window_footer modal-window_content">
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:VisualElement class="modal-window-resize-mark" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

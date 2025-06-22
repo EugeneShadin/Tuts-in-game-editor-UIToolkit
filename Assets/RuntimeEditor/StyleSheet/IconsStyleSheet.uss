@@ -1,0 +1,11 @@
+.x-mark-icon {
+    background-image: var(--x-mark-icon);
+}
+
+.minimize-icon {
+    background-image: var(--minimize-icon);
+}
+
+.maximize-icon {
+    background-image: var(--maximize-icon);
+}
