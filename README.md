@@ -1,2 +1,2 @@
-# Tuts-in-game-editor-UIToolkit
-Internal Level Editor UI in Unity using UI Toolkit. Educational project with modular structure, reusable styles, and runtime tools for designers.
+### [Part 4: Modal Window — Logic](Readme.md)
+Implement the modal window’s behaviour and build a helper extension to simplify UI setup.
