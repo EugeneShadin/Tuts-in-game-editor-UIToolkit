@@ -1,0 +1,53 @@
+.unity-base-text-field__input {
+    border-left-width: var(--input-field-border-size);
+    border-right-width: var(--input-field-border-size);
+    border-top-width: var(--input-field-border-size);
+    border-bottom-width: var(--input-field-border-size);
+    border-left-color: var(--input-field-border-color);
+    border-right-color: var(--input-field-border-color);
+    border-top-color: var(--input-field-border-color);
+    border-bottom-color: var(--input-field-border-color);
+    border-radius: var(--input-field-border-radius);
+}
+
+.unity-base-popup-field__input {
+    background-color: var(--input-field-bg-color);
+    border-left-width: var(--input-field-border-size);
+    border-right-width: var(--input-field-border-size);
+    border-top-width: var(--input-field-border-size);
+    border-bottom-width: var(--input-field-border-size);
+    border-left-color: var(--input-field-border-color);
+    border-right-color: var(--input-field-border-color);
+    border-top-color: var(--input-field-border-color);
+    border-bottom-color: var(--input-field-border-color);
+    border-radius: var(--input-field-border-radius);
+}
+
+.unity-enum-field__input {
+    background-color: var(--input-field-bg-color);
+    border-left-width: var(--input-field-border-size);
+    border-right-width: var(--input-field-border-size);
+    border-top-width: var(--input-field-border-size);
+    border-bottom-width: var(--input-field-border-size);
+    border-left-color: var(--input-field-border-color);
+    border-right-color: var(--input-field-border-color);
+    border-top-color: var(--input-field-border-color);
+    border-bottom-color: var(--input-field-border-color);
+    border-radius: var(--input-field-border-radius);
+}
+
+.input-field-vertical-layout {
+    flex-direction: column;
+}
+
+.unity-composite-field__input {
+    flex-direction: row;
+}
+
+.unity-composite-field__field {
+    flex-grow: 1;
+}
+
+.unity-composite-field__field > Label {
+    min-width: var(--input-field_label-min-width);
+}

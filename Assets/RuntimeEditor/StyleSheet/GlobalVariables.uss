@@ -1,0 +1,84 @@
+:root  {
+    --transparent-color: rgba(0, 0, 0, 0);
+
+    /* Input Field */
+
+    --input-field-bg-color: #F0F0F0;
+    --input-field-border-color: #565E64;
+    --input-field-border-radius: 5px;
+    --input-field-border-size: 2px;
+	--input-field_label-min-width: 30px;
+
+
+
+    /* Button */
+    --button-text-color: #FFFFFF;
+    --button-text-color_disabled: #000000;
+
+    --button-border-radius: 5px;
+
+    --button-primary-bg_idle: #0D6EFD;
+    --button-primary-bg_hover: #0B5ED7;
+    --button-primary-bg_active: #0A58CA;
+    --button-primary-bg_disabled: #134893;
+
+    --button-secondary-bg_idle: #6C757D;
+    --button-secondary-bg_hover: #5C636A;
+    --button-secondary-bg_active: #565E64;
+    --button-secondary-bg_disabled: #4E535A;
+
+    --button-success-bg_idle: #198754;
+    --button-success-bg_hover: #157347;
+    --button-success-bg_active: #146C43;
+    --button-success-bg_disabled: #12603D;
+
+    --button-danger-bg_idle: #DC3545;
+    --button-danger-bg_hover: #BB2D3B;
+    --button-danger-bg_active: #B02A37;
+    --button-danger-bg_disabled: #A52834;
+
+    /* Modal Window */
+    --modal-window-veil-bg: rgba(0, 0, 0, 0.3);
+
+    --modal-window-bg: #FFFFFF;
+    --modal-window-border-radius: 5px;
+	--modal-window-min-width: 650px;
+	--modal-window-font-size: 20px;
+
+	
+    --modal-window-small-max-width: 750px;
+    --modal-window-large-max-width: 1300px;
+
+    --modal-window-content_label_offset: 6px;
+    --modal-window-content_label-min-height: 30px;
+
+    --modal-window-content_button_min-width: 100px;
+
+    --modal-window-header-height: 50px;
+    --modal-window-header-color: #FFFFFF;
+    --modal-window-header-bg: #252525;
+
+    --modal-window-header_padding_left: 10px;
+    --modal-window-header_padding_right: 2px;
+	
+    --modal-window-header_button-padding: 7px;	
+    --modal-window-header-button-size: 40px;
+
+
+    --modal-window-body-hor-padding: 20px;
+    --modal-window-body-ver-padding: 10px;
+
+    --modal-window-padding: 5px;
+
+    --modal-window-separator-height: 2px;
+    --modal-window-separator-marning: 10px;
+    --modal-window-separator-bg: #828282;
+	
+	--modal-window-inner-group-bg: #E0E0E0;
+    --modal-window-inner-group-border: 1px;
+    --modal-window-inner-group-marning: 10px;
+    --modal-window-inner-group-border-bg: rgba(0, 0, 0, 0.53);
+
+    /* Icons */
+    --x-mark-icon: url("project://database/Assets/RuntimeEditor/Icons/x-mark.png?fileID=2800000&guid=3527ec6dc89ad144ba35a9fb757e9bfc&type=3#x-mark");
+}
