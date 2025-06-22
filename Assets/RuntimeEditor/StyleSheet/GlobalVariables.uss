@@ -1,0 +1,4 @@
+:root {
+    /* Icons */
+    --x-mark-icon: url("project://database/Assets/RuntimeEditor/Icons/x-mark.png?fileID=2800000&guid=3527ec6dc89ad144ba35a9fb757e9bfc&type=3#x-mark");
+}
