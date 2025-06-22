@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/RuntimeEditor/IconsStyleSheet.uss?fileID=7433441132597879392&amp;guid=90368413cf467814ba180e8913fac3a9&amp;type=3#IconsStyleSheet" />
+    <Style src="project://database/Assets/RuntimeEditor/ContextMenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=d3b963034a467b243a684a26c09bb1e0&amp;type=3#ContextMenuStyleSheet" />
+</ui:UXML>
