@@ -1,0 +1,167 @@
+.button-primary {
+    color: var(--button-text-color);
+    background-color: var(--button-primary-bg_idle);
+    border-radius: var(--button-border-radius);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-primary:hover:enabled {
+    background-color: var(--button-primary-bg_hover);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-primary:active:enabled {
+    background-color: var(--button-primary-bg_active);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-primary:disabled {
+    color: var(--button-text-color_disabled);
+    background-color: var(--button-primary-bg_disabled);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-primary:focus {
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-secondary {
+    color: var(--button-text-color);
+    background-color: var(--button-secondary-bg_idle);
+    border-radius: var(--button-border-radius);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-secondary:hover:enabled {
+    background-color: var(--button-secondary-bg_hover);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-secondary:active:enabled {
+    background-color: var(--button-secondary-bg_active);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-secondary:disabled {
+    color: var(--button-text-color_disabled);
+    background-color: var(--button-secondary-bg_disabled);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-secondary:focus {
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-success {
+    color: var(--button-text-color);
+    background-color: var(--button-success-bg_idle);
+    border-radius: var(--button-border-radius);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-success:hover:enabled {
+    background-color: var(--button-success-bg_hover);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-success:active:enabled {
+    background-color: var(--button-success-bg_active);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-success:disabled {
+    color: var(--button-text-color_disabled);
+    background-color: var(--button-success-bg_disabled);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-success:focus {
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-danger {
+    color: var(--button-text-color);
+    background-color: var(--button-danger-bg_idle);
+    border-radius: var(--button-border-radius);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-danger:hover:enabled {
+    background-color: var(--button-danger-bg_hover);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-danger:active:enabled {
+    background-color: var(--button-danger-bg_active);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-danger:disabled {
+    color: var(--button-text-color_disabled);
+    background-color: var(--button-danger-bg_disabled);
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}
+
+.button-danger:focus {
+    border-left-color: var(--transparent-color);
+    border-right-color: var(--transparent-color);
+    border-top-color: var(--transparent-color);
+    border-bottom-color: var(--transparent-color);
+}

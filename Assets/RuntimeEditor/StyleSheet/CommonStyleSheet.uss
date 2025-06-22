@@ -1,0 +1,7 @@
+.flex-grow {
+    flex-grow: 1;
+}
+
+.display-none {
+    display: none;
+}

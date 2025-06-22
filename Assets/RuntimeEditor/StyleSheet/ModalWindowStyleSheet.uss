@@ -1,0 +1,79 @@
+.modal-window {
+    background-color: var(--modal-window-bg);
+    border-radius: var(--modal-window-border-radius);
+    min-width: var(--modal-window-min-width);
+    font-size: var(--modal-window-font-size);
+}
+
+.modal-window-compact {
+    max-width: var(--modal-window-small-max-width);
+}
+
+.modal-window-wide {
+    max-width: var(--modal-window-large-max-width);
+}
+
+.modal-window-info-label {
+}
+
+.modal-window_header {
+    height: var(--modal-window-header-height);
+    background-color: var(--modal-window-header-bg);
+    color: var(--modal-window-header-color);
+    padding-left: var(--modal-window-header_padding_left);
+    padding-right: var(--modal-window-header_padding_right);
+    flex-direction: row;
+    align-items: center;
+    border-top-left-radius: var(--modal-window-border-radius);
+    border-top-right-radius: var(--modal-window-border-radius);
+}
+
+.modal-window_header > Label {
+    flex-grow: 1;
+}
+
+.modal-window_header > Button {
+    width: var(--modal-window-header-button-size);
+    height: var(--modal-window-header-button-size);
+    padding: var(--modal-window-header_button-padding);
+}
+
+.modal-window_content > Label {
+    min-height: var(--modal-window-content_label-min-height);
+    margin-left: var(--modal-window-content_label_offset);
+    white-space: normal;
+}
+
+.modal-window_content > Button {
+    min-width: var(--modal-window-content_button_min-width);
+}
+
+.modal-window_body {
+    flex-grow: 1;
+    padding: var(--modal-window-body-ver-padding) var(--modal-window-body-hor-padding);
+}
+
+.modal-window_footer {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: var(--modal-window-padding);
+}
+
+.modal-window_content > #separator {
+    height: var(--modal-window-separator-height);
+    background-color: var(--modal-window-separator-bg);
+    margin: var(--modal-window-separator-marning) 0;
+}
+
+.modal-window-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window-container-bg {
+    background-color: var(--modal-window-veil-bg);
+}
