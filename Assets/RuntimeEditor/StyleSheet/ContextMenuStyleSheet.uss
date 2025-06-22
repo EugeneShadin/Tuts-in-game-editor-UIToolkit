@@ -1,0 +1,110 @@
+.context-menu_root {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.context-menu_container {
+    position: absolute;
+    min-width: 250px;
+    min-height: 50px;
+}
+
+.context-menu_back {
+    background-color: rgb(249, 249, 249);
+    border-left-color: rgb(229, 229, 229);
+    border-right-color: rgb(229, 229, 229);
+    border-top-color: rgb(229, 229, 229);
+    border-bottom-color: rgb(229, 229, 229);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-radius: 5px;
+}
+
+.context-menu_container > Button {
+    font-size: 18px;
+    -unity-text-align: middle-left;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    padding: 0 20px 0 50px;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.context-menu_container > #separator {
+    height: 2px;
+    background-color: rgb(215, 215, 215);
+    margin: 4px 20px;
+}
+
+.context-menu_container > Button:hover:enabled {
+    background-color: rgb(240, 240, 240);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+
+.context-menu_container > Button:active:enabled {
+    background-color: rgb(240, 240, 240);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+
+.context-menu_container > Button:focus:enabled {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.context-menu_container > Button:disabled {
+    color: rgb(135, 135, 135);
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.context-menu_container > Button:hover:disabled {
+    color: rgb(135, 135, 135);
+    background-color: rgb(240, 240, 240);
+}
+
+.context-menu_container > Button:active:disabled {
+    color: rgb(135, 135, 135);
+    background-color: rgb(240, 240, 240);
+}
+
+.context-menu_arrow {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-1087164816274819069&guid=061b881c0b0d71f4fb649e93ed852307&type=3#arrow-right@2x");
+    -unity-background-image-tint-color: rgb(67, 67, 67);
+    -unity-background-scale-mode: scale-to-fit;
+    max-width: 20px;
+}
+
+.context-menu_icon {
+    -unity-background-scale-mode: scale-to-fit;
+    margin-left: -40px;
+    width: 30px;
+}
+
+Button:disabled > .context-menu_icon {
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);
+}
+
+Button:disabled > .context-menu_arrow {
+    -unity-background-image-tint-color: rgba(67, 67, 67, 0.5);
+}

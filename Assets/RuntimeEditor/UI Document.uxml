@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/RuntimeEditor/ContextMenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=d3b963034a467b243a684a26c09bb1e0&amp;type=3#ContextMenuStyleSheet" />
+    <Style src="project://database/Assets/RuntimeEditor/IconsStyleSheet.uss?fileID=7433441132597879392&amp;guid=90368413cf467814ba180e8913fac3a9&amp;type=3#IconsStyleSheet" />
+    <ui:VisualElement name="container" class="context-menu_root" style="flex-grow: 1;">
+        <ui:VisualElement name="menu" class="context-menu_container context-menu_back">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:Button text="SubMenu 1" parse-escape-sequences="true" display-tooltip-when-elided="true">
+                <ui:VisualElement class="context-menu_icon settings-icon" />
+                <ui:VisualElement class="context-menu_arrow" />
+            </ui:Button>
+            <ui:VisualElement name="separator" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:VisualElement name="separator" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

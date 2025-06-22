@@ -1,0 +1,11 @@
+.email-icon {
+    background-image: url("project://database/Assets/RuntimeEditor/Icons/email.png?fileID=2800000&guid=8275df51993f7154490c205f98005f0a&type=3#email");
+}
+
+.settings-icon {
+    background-image: url("project://database/Assets/RuntimeEditor/Icons/settings.png?fileID=2800000&guid=2597d2bff09acc641a11b31757a8e389&type=3#settings");
+}
+
+.file-icon {
+    background-image: url("project://database/Assets/RuntimeEditor/Icons/file.png?fileID=2800000&guid=d842e334747d7f544b0dec40d4c654f1&type=3#file");
+}
