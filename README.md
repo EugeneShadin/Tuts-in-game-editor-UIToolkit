@@ -1,4 +1,4 @@
-### [Part 1: Toolbar Panel](Readme.md)
+### [Part 1: Toolbar Panel](https://medium.com/@e.a.shadin/in-game-editor-with-ui-toolkit-part-1-toolbar-6f55a4686509)
 Create a basic toolbar with buttons and a minimal style sheet.
 
 
