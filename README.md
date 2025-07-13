@@ -12,10 +12,10 @@ It’s designed for Unity developers and tech designers who want to create modul
 Each part includes source code, stylesheets, and scene setup.  
 You can follow the tutorial articles or jump straight into the code.
 
-### [Part 1: Toolbar Panel](Readme.md)
+### [Part 1: Toolbar Panel](https://medium.com/@e.a.shadin/in-game-editor-with-ui-toolkit-part-1-toolbar-6f55a4686509)
 Create a basic toolbar with buttons and a minimal style sheet.
 
-### [Part 2: Context Menu](Readme.md)
+### [Part 2: Context Menu](https://medium.com/@e.a.shadin/in-game-editor-with-ui-toolkit-part-2-context-menu-90a5322ac142)
 Implement a dynamic right-click menu that supports icons and submenus.
 
 ### [Part 3: Modal Window — Styling](Readme.md)
